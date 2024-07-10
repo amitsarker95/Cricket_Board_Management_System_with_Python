@@ -35,7 +35,7 @@ class Player:
 class Innings:
     def __init__(self,teamOne,teamTwo,battingTeam,bowlingTeam) -> None:
         self.teamOne = teamOne
-        self.teamOne = teamTwo
+        self.teamTwo = teamTwo
         self.battingTeam = battingTeam
         self.BowlingTeam = bowlingTeam
         self.totalRun = 0
